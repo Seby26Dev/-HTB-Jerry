@@ -5,6 +5,10 @@
 ```
 nmap -sVC -p- 10.10.10.95 -oN nmap_scan --min-rate 5000
 ```
+> - `-sVC`: Detect service/version /// Run default scripts
+> - `-oN`: Output to file (normal format)
+> - `--min-rate 5000`: Fast scan 5000 p/s
+
 
 <img width="499" height="89" alt="image" src="https://github.com/user-attachments/assets/7096c13b-3bd3-4d2a-912e-0675eec597ac" />
 
@@ -28,7 +32,7 @@ tomcat:s3cret
 ### After connecting on the manager account we see this page : 
 <img width="1908" height="957" alt="image" src="https://github.com/user-attachments/assets/25638939-aa20-43a8-be23-d77f6c767afe" />
 
-### We find thet we can upload and deployd 'WAR' file : 
+### We find that we can upload and deployed 'WAR' file : 
 
 <img width="1913" height="108" alt="image" src="https://github.com/user-attachments/assets/e5799db3-ed48-4794-b703-6b1f5c957dc0" />
 
